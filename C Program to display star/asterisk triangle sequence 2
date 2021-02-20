@@ -1,0 +1,39 @@
+
+/*
+ *  Author: Techyrick.com
+ */
+
+#include<stdio.h> 
+//#include <conio.h>
+
+void main() {
+
+
+//    clrscr();
+
+    int i = 0; //for loop1
+    
+    int j = 0; //for loop2
+    
+    int k = 0; //for loop3
+
+    for(i = 0; i <= 10 ; i++) {
+        
+        for(j = 10; j >= i; j--) {
+            printf(" ");
+        
+            for(k=1; k<=1;k++)
+            {
+                printf("*");
+            }
+            
+        }
+        printf("\n");
+    }
+    
+
+//	getch();
+
+
+}
+
